@@ -1,0 +1,25 @@
+ ul.Navigation{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	display: inline;
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Georgia";
+	padding: 10px 20px;
+}
+li a:hover{
+	background-color: rgba(224, 221, 127);
+}
+.joinUs{
+	align-content:right;
+}
