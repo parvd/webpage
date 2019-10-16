@@ -1,0 +1,59 @@
+<html>
+    <head>
+ 
+<script>
+function validateForm() 
+    {
+    var x = document.forms["myForm"]["fname"].value;
+    var y = document.forms["myForm"]["password"].value;
+    if (x == "") 
+    {
+        alert("username must be filled out");
+        return false;
+    }
+          if (y == "") 
+    {
+        alert("Password must be filled out");
+        return false;
+    }
+	
+
+}
+</script>
+
+        <title>Login Form</title>
+        </head>
+
+            <link rel="stylesheet" type="text/css" href="style.css">
+        <body>
+	
+
+
+
+	<div class="loginbox">
+	     <div class="box">
+	        <div class="content">
+
+    </i>  
+        <h1>Login Here</h1>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+        <p>Username</p>
+            <input type="text" name="fname"  placeholder="Enter Username">
+            
+            <p>Password</p>
+            <input type="password" name="password"  placeholder="Enter Password">
+            
+             <input href="account.html"  type="submit"  name="" value="Login"><br>
+
+	          
+            <a href="#">Lost your Password</a><br>
+            <a href="account.html">Don't have an account?</a>
+            
+        </form>
+        </div>
+	</div>      
+	</div>        
+        </body>
+    
+</html>
